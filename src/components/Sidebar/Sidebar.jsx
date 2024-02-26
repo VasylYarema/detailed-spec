@@ -7,10 +7,9 @@ import Ranges from '../Ranges/Ranges';
 const Sidebar = () => {
   return (
     <div className={style.Sidebar}>
-      <img src={logo} alt='logo' className={style.Logo}/>
+      <img src='../../dataspan.webp' alt='logo' className={style.Logo}/>
       <Filters />
       <Ranges />
-      <button>Clear Filters</button>
     </div>
   );
 }

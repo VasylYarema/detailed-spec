@@ -1,0 +1,14 @@
+.LabelRange {
+  margin-bottom: 5px;
+}
+
+.LabelsRanges {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ClearFilter {
+  margin-top: 20px;
+  cursor: pointer;
+}

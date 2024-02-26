@@ -1,0 +1,88 @@
+.FilterButton {
+  display: inline-block;
+  color: rgb(126 126 255);
+  cursor: pointer;
+}
+.FilterButton:first-child {
+  margin-right: 15px;
+}
+
+.FilterTags {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.FilterTag {
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 8px 20px 8px 33px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.FilterTag:before {
+  position: absolute;
+  left: 14px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #333;
+}
+
+.FilterTag:first-child {
+  border-color: rgb(126 126 255);
+}
+.FilterTag:first-child:before {
+  background-color: rgb(126 126 255);
+}
+
+.FilterTag:nth-child(2) {
+  border-color: rgb(99, 201, 100);
+}
+.FilterTag:nth-child(2):before {
+  background-color: rgb(99, 201, 100);
+}
+
+.FilterTag:nth-child(3) {
+  border-color: rgb(99, 198, 201);
+}
+.FilterTag:nth-child(3):before {
+  background-color: rgb(99, 198, 201);
+}
+
+.FilterTag:nth-child(4) {
+  border-color: rgb(187, 175, 85);
+}
+.FilterTag:nth-child(4):before {
+  background-color: rgb(187, 175, 85);
+}
+
+.FilterTag:nth-child(5) {
+  border-color: rgb(139, 57, 57);
+}
+.FilterTag:nth-child(5):before {
+  background-color: rgb(139, 57, 57);
+}
+
+.FilterTag:nth-child(6) {
+  border-color: rgb(171, 114, 21);
+}
+.FilterTag:nth-child(6):before {
+  background-color: rgb(171, 114, 21);
+}
+
+.FilterTag:nth-child(7) {
+  border-color: rgb(122, 23, 161);
+}
+.FilterTag:nth-child(7):before {
+  background-color: rgb(122, 23, 161);
+}

@@ -1,20 +1,19 @@
 import React from 'react';
+import style from './Filter.module.css'
+
+const tags = ['Elbow positive', 'Fingers positive', 'Forearm fracture', 'Humerus fracture', 'Humerus', 'Shoulder fracture', 'Wrist positive'];
 
 const Filters = () => {
   return (
     <div className="filters">
-      <h5>Classes filter</h5>
-      {/* <div className="filterButton">
-        <button>Select all</button>
-        <button>Deselect all</button>
+      <h4>Classes filter</h4>
+      <div>
+        <div className={style.FilterButton}>Select all</div>
+        <div className={style.FilterButton}>Deselect all</div>
       </div>
-      <ul className="filterTags">
-        <li>Elbow 1</li>
-        <li>Elbow 2</li>
-        <li>Elbow 3</li>
-        <li>Elbow 4</li>
-        <li>Elbow 5</li>
-      </ul> */}
+      <ul className={style.FilterTags}>
+        {tags.map((tag) => <li key={tag} className={style.FilterTag}>{tag}</li>)}
+      </ul>
     </div>
   );
 }
