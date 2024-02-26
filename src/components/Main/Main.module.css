@@ -1,0 +1,14 @@
+.Main {
+  flex: 1; /* Розмір сітки з товарами займає всю доступну ширину */
+  padding: 20px;
+}
+
+.MainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ItemsLength {
+  font-weight: bold;
+}
