@@ -103,7 +103,8 @@ const Items = ({items, polygons}) => {
       {isModalOpen && <Modal openModal={openModal} closeModal={closeModal}>
         <p className={style.ModalTitle}>{selectedItem.key}</p>
         <p className={style.DetailLabel}>Details:</p>
-        <span className={style.FracName}>fracture_1</span>
+        <p className={style.FracNameWrap}><span className={style.FracName}>fracture_1</span></p>
+        
         <ImageWithPolygons width={500} height={500} imageUrl={`${url}${selectedItem.key}`} polygons={selectedItem.polygons}/>
       </Modal>}
     </>

@@ -60,6 +60,10 @@
   margin-top: 0;
 }
 
+.FracNameWrap {
+  width: 100%;
+}
+
 .FracName {
   padding: 5px 30px;
   border-radius: 25px;
