@@ -11,21 +11,21 @@
 }
 
 .ModalContent {
-  width: 60%;
+  width: min-content;
   background-color: white;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  position: relative;
 }
 
 .ModalClose {
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 20px;
+  right: 20px;
   cursor: pointer;
-  font-size: 40px;
-  color: white;
+  font-size: 32px;
+  color: rgba(209, 209, 214, 1);
 }

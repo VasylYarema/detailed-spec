@@ -114,7 +114,7 @@ useEffect(() => {
   return (
     <div className={style.Main}>
       <div className={style.MainHeader}>
-        <h2>Bone fracture detection</h2>
+        <h1 className={style.MainTitle}>Bone fracture detection</h1>
         <div>
           <span className={style.ItemsLength}>54</span> images
         </div>

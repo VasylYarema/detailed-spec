@@ -1,6 +1,6 @@
 .FilterButton {
   display: inline-block;
-  color: rgb(126 126 255);
+  color: #2081D2;
   cursor: pointer;
 }
 .FilterButton:first-child {
@@ -16,7 +16,7 @@
 }
 
 .FilterTag {
-  border-radius: 20px;
+  border-radius: 25px;
   border: 1px solid;
   padding: 8px 20px 8px 33px;
   position: relative;
@@ -39,50 +39,50 @@
 }
 
 .FilterTag:first-child {
-  border-color: rgb(126 126 255);
+  border-color: #3D9BE9;
 }
 .FilterTag:first-child:before {
-  background-color: rgb(126 126 255);
+  background-color: #3D9BE9;
 }
 
 .FilterTag:nth-child(2) {
-  border-color: rgb(99, 201, 100);
+  border-color: #BADA55;
 }
 .FilterTag:nth-child(2):before {
-  background-color: rgb(99, 201, 100);
+  background-color: #BADA55;
 }
 
 .FilterTag:nth-child(3) {
-  border-color: rgb(99, 198, 201);
+  border-color: #2CE1CB;
 }
 .FilterTag:nth-child(3):before {
-  background-color: rgb(99, 198, 201);
+  background-color: #2CE1CB;
 }
 
 .FilterTag:nth-child(4) {
-  border-color: rgb(187, 175, 85);
+  border-color: #FFD75C;
 }
 .FilterTag:nth-child(4):before {
-  background-color: rgb(187, 175, 85);
+  background-color: #FFD75C;
 }
 
 .FilterTag:nth-child(5) {
-  border-color: rgb(139, 57, 57);
+  border-color: #F25858;
 }
 .FilterTag:nth-child(5):before {
-  background-color: rgb(139, 57, 57);
+  background-color: #F25858;
 }
 
 .FilterTag:nth-child(6) {
-  border-color: rgb(171, 114, 21);
+  border-color: #FDB03E;
 }
 .FilterTag:nth-child(6):before {
-  background-color: rgb(171, 114, 21);
+  background-color: #FDB03E;
 }
 
 .FilterTag:nth-child(7) {
-  border-color: rgb(122, 23, 161);
+  border-color: #D783FF;
 }
 .FilterTag:nth-child(7):before {
-  background-color: rgb(122, 23, 161);
+  background-color: #D783FF;
 }

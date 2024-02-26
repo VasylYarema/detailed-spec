@@ -1,5 +1,5 @@
 .Main {
-  flex: 1; /* Розмір сітки з товарами займає всю доступну ширину */
+  flex: 1;
   padding: 20px;
 }
 
@@ -7,6 +7,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.MainTitle {
+  color: #041D32;
+  font-size: 42px;
+  margin: 0;
 }
 
 .ItemsLength {

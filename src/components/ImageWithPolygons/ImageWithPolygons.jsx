@@ -13,7 +13,7 @@ const ImageWithPolygons = ({width, height, imageUrl, polygons }) => {
           <Line
             key={index}
             points={convertCoordinatesToPixels(image, polygon, width, height)}
-            stroke="yellow"
+            stroke="rgba(255, 215, 92, 1)"
             strokeWidth={2}
           />
         ))}

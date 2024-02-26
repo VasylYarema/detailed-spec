@@ -27,7 +27,7 @@ const Ranges = () => {
               ...props.style,
               height: '3px',
               width: '100%',
-              backgroundColor: 'rgb(236 217 74)'
+              backgroundColor: '#FFD75C'
             }}
           >
             {children}
@@ -52,7 +52,7 @@ const Ranges = () => {
               ...props.style,
               height: '15px',
               width: '15px',
-              backgroundColor: 'rgb(236 217 74)',
+              backgroundColor: '#FFD75C',
               borderRadius: '50%',
             }}
           />

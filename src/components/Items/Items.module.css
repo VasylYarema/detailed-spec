@@ -47,6 +47,22 @@
 }
 
 .PaginationButtonActive {
-  background-color: #ffff0014;
-  color: #d7d700;
+  background-color: rgba(255, 215, 92, 0.1);
+  color: rgba(255, 215, 92, 1);
+}
+
+.ModalTitle {
+  font-size: 16px;
+}
+
+.DetailLabel {
+  width: 100%;
+  margin-top: 0;
+}
+
+.FracName {
+  padding: 5px 30px;
+  border-radius: 25px;
+  background-color: rgba(255, 215, 92, 1);
+  margin-bottom: 20px;
 }

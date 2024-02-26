@@ -101,7 +101,9 @@ const Items = ({items, polygons}) => {
           <button className={style.PaginationButton} onClick={nextPage} disabled={currentPage === totalPages}>Next</button>
       </div>
       {isModalOpen && <Modal openModal={openModal} closeModal={closeModal}>
-        <h5>{selectedItem.key}</h5>
+        <p className={style.ModalTitle}>{selectedItem.key}</p>
+        <p className={style.DetailLabel}>Details:</p>
+        <span className={style.FracName}>fracture_1</span>
         <ImageWithPolygons width={500} height={500} imageUrl={`${url}${selectedItem.key}`} polygons={selectedItem.polygons}/>
       </Modal>}
     </>

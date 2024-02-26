@@ -12,8 +12,8 @@
 }
 
 .TabActive {
-  color: #d7d700;
-  background-color: #ffff0014;
-  border-bottom: 1px solid #ffff00;
+  color: #FFD75C;
+  background-color: rgba(255, 215, 92, 0.1);
+  border-bottom: 1px solid #FFD75C;
   margin-bottom: -1px;
 }
